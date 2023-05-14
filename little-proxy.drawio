@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T10:20:57.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.8" etag="WCbK18LvEWO7h4CorDhV" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T10:42:19.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4ATb046gQMVNE0cLboEY" version="21.1.8" type="github">
   <diagram name="第 1 页" id="PR5nTnRtJUDZwZ6PbRg6">
-    <mxGraphModel>
+    <mxGraphModel dx="1642" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-2" value="&lt;b&gt;Mitm&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Il3NCM5yGjSnfaNeq1v5-3" target="Il3NCM5yGjSnfaNeq1v5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-3" value="client1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-8" value="client1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="50" as="sourcePoint" />
+            <mxPoint x="340" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="50" as="sourcePoint" />
+            <mxPoint x="950" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-12" value="server1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="950" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-13" value="ClientToProxyConnection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-14" value="ProxyToServerConnection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-15" value="public class ClientToProxyConnection{&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 一个ClientToProxyConnection可以对应多个ProxyToServerConnection（只有一个出站主机端口）；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ProxyToServerConnection跟真实server之间的连接是复用的&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; private final Map&amp;lt;String, ProxyToServerConnection&amp;gt; serverConnectionsByHostAndPort;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ......&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry y="465" width="660" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Il3NCM5yGjSnfaNeq1v5-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="130" as="sourcePoint" />
+            <mxPoint x="950" y="109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il3NCM5yGjSnfaNeq1v5-17" value="&lt;div&gt;ClientToProxyConnection#read/doReadHTTPInitial&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.httpFilters.clientToProxyRequest(httpRequest)&lt;/div&gt;&lt;div&gt;2.httpFilters.proxyToServerRequest(httpRequest)&lt;/div&gt;&lt;div&gt;3.currentServerConnection.write 底层就是channel.write&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="300" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
