@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T09:43:56.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.0" etag="U49nXT4DSYwCTyl3aZtU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T09:55:12.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y648BfRFd_GKxHVPzr8h" version="21.3.0" type="github">
   <diagram name="第 1 页" id="11QYpz-zLl2f8xzPD1Qq">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="195" as="targetPoint" />
+            <mxPoint x="215" y="155" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-2" value="Damain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.883;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cfR0mszA-3SYHEkwhtc0-3" target="cfR0mszA-3SYHEkwhtc0-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="130" />
+              <mxPoint x="770" y="170" />
+              <mxPoint x="261" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-3" value="Name Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-4" value="应用服务（Vervel）&lt;br&gt;&lt;br&gt;服务器IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-5" value="域名&lt;br&gt;提供商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-6" value="域名&lt;br&gt;解析商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-7" value="比如&lt;br&gt;dynadot.com只提供免费域名" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry y="60" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-8" value="比如&lt;br&gt;dnspod提供域名解析" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="60" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-10" value="发放域名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="205" as="targetPoint" />
+            <mxPoint x="880" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-12" value="管理域名到服务IP的映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfR0mszA-3SYHEkwhtc0-15" value="DNS Settings设置域名解析商的&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Name Servers&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="190" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
