@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T03:21:22.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.9" etag="kPzD0Z4HA72ApF5v3P5N" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T03:23:19.071Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eMe-b8RbmjfcCg3fKbZX" version="22.1.9" type="github">
   <diagram name="第 1 页" id="5bS8XD7eFEel6jkaujmy">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2pDPQscLSQlCzZsjr6_2-2" value="Taobao" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2pDPQscLSQlCzZsjr6_2-3" value="&lt;h2 style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, arial, sans-serif; font-size: 28px; font-weight: 400; line-height: 36px; margin: 0px; color: rgb(32, 33, 36); text-align: left; background-color: rgb(255, 255, 255);&quot; data-ved=&quot;2ahUKEwjPiJnDvpCDAxU9f_UHHQRvCjAQ3B0oAXoECD4QEQ&quot; data-attrid=&quot;title&quot; data-local-attribute=&quot;d3bn&quot; class=&quot;qrShPb pXs6bb PZPZlf q8U8x aTI8gc&quot;&gt;&lt;br&gt;&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2pDPQscLSQlCzZsjr6_2-4" value="Amazon" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="555" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
