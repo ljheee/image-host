@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-12-29T04:03:37.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="hvMEnyFipZNbNy85kPo0" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-12-29T04:06:46.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="XMKDwHIApR5eCqRs5UPV" version="24.0.7" type="github">
   <diagram name="第 1 页" id="Hzq1gPXP81v7amF3jc7R">
-    <mxGraphModel dx="1150" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="1814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
         <mxCell id="E9tjk1P1PD2Z4J70Hqr4-8" value="zlend（8bit）&lt;div&gt;列表结束标记&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="700" y="-500" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E9tjk1P1PD2Z4J70Hqr4-9" value="prevrawlen（变长,1/5字节）&lt;div&gt;前一项总字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="E9tjk1P1PD2Z4J70Hqr4-9" value="prevrawlen（变长,1/5字节）&lt;div&gt;前一项entry的总字节数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="310" y="-320" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E9tjk1P1PD2Z4J70Hqr4-12" value="len（变长,1/2/5字节）&lt;div&gt;当前数据项的data数据长度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="E9tjk1P1PD2Z4J70Hqr4-12" value="len（变长,1/2/5字节）&lt;div&gt;当前entry的data数据长度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="460" y="-320" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E9tjk1P1PD2Z4J70Hqr4-13" value="data&lt;div&gt;真正的数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
