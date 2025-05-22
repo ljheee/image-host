@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="a8JhmEGu-Wv1vcs8Wqmk">
-    <mxGraphModel>
+    <mxGraphModel dx="1473" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-1" value="client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-2" value="server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkKB2r11bsZm2Fxe6iz3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="190" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559.5" y="120" as="sourcePoint" />
+            <mxPoint x="559.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-5" value="&lt;div&gt;socket&lt;/div&gt;connect(同步)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-7" value="SYN client_isn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-8" value="socket,bind,listent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-9" value="accept" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-10" value="SYN_RCVD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-12" value="SYN server_isn,&lt;br&gt;ACK client_isn+1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="257" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-13" value="&lt;div&gt;ESTABLISHED&lt;/div&gt;connect返回" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="550" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-15" value="SYN server_isn+1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-16" value="&lt;div&gt;ESTABLISHED&lt;/div&gt;accept返回" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-17" value="&lt;div&gt;1.客户端会随机初始化序号（client_ISN），将此序号置于 TCP 首部的 序号 字段中，同时把 SYN 标志位置为 1 ，把第一个 SYN 报文发送给服务端，表示向服务端发起连接，该报文不包含应用层数据 ，之后客户端处于 &lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;SYN_SENT&lt;/font&gt; 状态。&lt;/div&gt;&lt;div&gt;2.服务端收到客户端的 SYN 报文后，服务端也随机初始化自己的序号（server_isn），将此序号填入 TCP 首部的 序号 字段中，其次把 TCP 首部的 确认应答号 字段填入 client_isn + 1 , 接着把 SYN 和 ACK 标志位置为 1 ，同时写入 rwnd ，以告知对方自己的接收窗口大小。最后把该报文发给客户端，该报文也不包含应用层数据 ，之后服务端处于 &lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;SYN_RCVD&lt;/font&gt; 状态。&lt;/div&gt;&lt;div&gt;3.客户端收到服务端报文后，还要向服务端回应最后一个应答报文，首先该应答报文 TCP 首部 ACK 标志位置为 1 ，其次 确认应答号 字段填入 server_isn + 1 ，最后把报文发送给服务端。这次报文可以携带客户到服务器的数据 ，之后客户端处于 ESTABLISHED 状态。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="680" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-18" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;SYN_SENT&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-19" value="client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-20" value="server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkKB2r11bsZm2Fxe6iz3-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="530" as="sourcePoint" />
+            <mxPoint x="880" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1249.5" y="120" as="sourcePoint" />
+            <mxPoint x="1249.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-23" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;shutdown&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="122" as="sourcePoint" />
+            <mxPoint x="1240" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-25" value="FIN seq=x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="122" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-26" value="ESTABLISHED" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-27" value="CLOSE_WAIT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="210" as="sourcePoint" />
+            <mxPoint x="890" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-29" value="ACK x+1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="207" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-30" value="&lt;span style=&quot;color: rgb(102, 255, 102);&quot;&gt;TIME_WAIT&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="316" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="340" as="sourcePoint" />
+            <mxPoint x="1240" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-32" value="ACK y+1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-33" value="&lt;span style=&quot;color: rgb(102, 255, 102);&quot;&gt;CLOSED&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-34" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;FIN_WAIT1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="790" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="262" as="sourcePoint" />
+            <mxPoint x="890" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-36" value="FIN seq=y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="265" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-37" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="840" y="340" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-38" value="2MSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="368" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-39" value="LAST_ACK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-40" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;FIN_WAIT2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-41" value="&lt;span style=&quot;color: rgb(102, 255, 102);&quot;&gt;CLOSED&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XkKB2r11bsZm2Fxe6iz3-42" value="&lt;div&gt;1.客户端打算关闭连接，会发送一个 TCP 首部 FIN 标志位被置为 1 的报文，也即 FIN 报文，之后客户端进入 FIN_WAIT_1 状态。&lt;/div&gt;&lt;div&gt;2.服务端收到该报文后，就向客户端发送 ACK 应答报文，接着服务端进入 CLOSED_WAIT 状态。&lt;/div&gt;&lt;div&gt;3.客户端收到服务端的 ACK 应答报文后，之后进入 FIN_WAIT_2 状态。&lt;/div&gt;&lt;div&gt;4.等待服务端处理完数据后，也向客户端发送 FIN 报文，之后服务端进入 LAST_ACK 状态。&lt;/div&gt;&lt;div&gt;5.客户端收到服务端的 FIN 报文后，回一个 ACK 应答报文，之后进入 TIME_WAIT 状态&lt;/div&gt;&lt;div&gt;- 服务器收到了 ACK 应答报文后，就进入了 CLOSED 状态，至此服务端已经完成连接的关闭。&lt;/div&gt;&lt;div&gt;- 客户端在经过 2MSL 一段时间后，自动进入 CLOSED 状态，至此客户端也完成连接的关闭。主动关闭连接的，才有 TIME_WAIT 状态。 &lt;br&gt;TCP 规定，FIN 报文段即使不携带数据，也要消耗一个序号。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="520" width="750" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
