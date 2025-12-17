@@ -1,9 +1,115 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="niAfjfnxvjFIKo7n_w96">
-    <mxGraphModel>
+    <mxGraphModel dx="2061" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="f2vqsWYzuhESuBqjhSxv-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="800" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="40" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="amount" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="time" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10" vertex="1">
+          <mxGeometry height="30" width="20" x="110" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20" vertex="1">
+          <mxGeometry height="30" width="20" x="190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="30" vertex="1">
+          <mxGeometry height="30" width="20" x="270" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="40" vertex="1">
+          <mxGeometry height="30" width="20" x="350" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="50" vertex="1">
+          <mxGeometry height="30" width="20" x="430" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="60" vertex="1">
+          <mxGeometry height="30" width="20" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="70" vertex="1">
+          <mxGeometry height="30" width="20" x="590" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="80" vertex="1">
+          <mxGeometry height="30" width="20" x="670" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="90" vertex="1">
+          <mxGeometry height="30" width="20" x="750" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-15" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="360" />
+              <mxPoint x="280" y="340" />
+              <mxPoint x="310" y="270" />
+              <mxPoint x="400" y="170" />
+            </Array>
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="760" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-16" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF9933;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="360" />
+              <mxPoint x="420" y="180" />
+            </Array>
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="610" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-17" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="360" />
+              <mxPoint x="170" y="330" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="200" y="250" />
+              <mxPoint x="230" y="240" />
+              <mxPoint x="310" y="240" />
+              <mxPoint x="490" y="230" />
+            </Array>
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="820" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="本金总额" vertex="1">
+          <mxGeometry height="30" width="60" x="-20" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="240" as="sourcePoint" />
+            <mxPoint x="190" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="保证" vertex="1">
+          <mxGeometry height="30" width="30" x="790" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="复归" vertex="1">
+          <mxGeometry height="30" width="30" x="730" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="终期" vertex="1">
+          <mxGeometry height="30" width="30" x="580" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;斜率就是增长速度；&lt;/div&gt;1.三个账户，各自的增长最快期，错落在不同的时间段；&lt;div&gt;2.三个账户 各自增长速率，随时间的变化曲线，是港险”黑盒“的核心；是不同产品之间的根本差异。&lt;br&gt;3.“&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;三个账户 各自增长速率，随时间的变化曲线” 理论上可由险企任意调配设置；也就是&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;险企决定(产品A)某个账户在什么时间段增长很慢、什么时间段增长最快、增长到什么程度就不再增长。这些拟合调配参数，一定是在精算之后对&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;险企最有利 &amp;amp;&amp;amp; 产品收益&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;对外&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宣传能看起来亮点十足。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="770" x="70" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f2vqsWYzuhESuBqjhSxv-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;对险企最有利的参数&lt;/div&gt;&lt;div&gt;1.保证账户：在接近“回本”前夕增长最快，“回本”后几乎不再增长，压制在投入的本金总额线上。&lt;/div&gt;&lt;div&gt;但凡在“回本”前大额提取，代价是把未来参与分红的份额提前拿走了。大额本金白给险企用了很久，险企却没付出什么像样的成本。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.复归账户：尽可能占比最低，或前高后低；&lt;br&gt;&lt;br&gt;3.终期账户：尽可能爆发增长的时点靠后，熬走大部分&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;提取提取的&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;散户。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="694" x="70" y="640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
