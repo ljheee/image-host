@@ -1,11 +1,1 @@
-{
-  "root": {
-    "data": {
-      "text": "中心主题"
-    },
-    "children": []
-  },
-  "template": "default",
-  "theme": "fresh-blue",
-  "version": "1.4.43"
-}
+{"root":{"data":{"text":"中心主题","changed":true},"children":[{"data":{"id":"dhf1px6ffa00","created":1774765095217,"text":"分支主题","contextChanged":true,"changed":true},"children":[]}]},"template":"right","theme":"fresh-blue","version":"1.4.43"}
